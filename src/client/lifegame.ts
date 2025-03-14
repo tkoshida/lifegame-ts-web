@@ -7,18 +7,19 @@ const gridContainer = document.getElementById('grid-container')
 
 if (nextButton) {
   nextButton.addEventListener('click', () => {
-    // do something
+    // TODO implement next generation
   })
 }
 
 if (resetButton) {
   resetButton.addEventListener('click', () => {
-    // do something
+    // TODO implement reset
   })
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function isActive(row: number, col: number) {
+  // TODO implement isActive for the given row and col
   return Math.random() > 0.5
 }
 
