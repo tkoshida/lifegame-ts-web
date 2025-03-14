@@ -6,7 +6,9 @@
   "scripts": {
     "build": "tsc",
     "debug": "npx vite",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint .",
+    "prettier": "prettier . --write"
   },
   "repository": {
     "type": "git",
@@ -15,13 +17,19 @@
   "author": "japan-d2",
   "license": "MIT",
   "devDependencies": {
+    "@eslint/js": "^9.22.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^20.10.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "globals": "^16.0.0",
     "jest": "^27.0.0",
+    "prettier": "3.5.3",
     "ts-jest": "^27.0.0",
     "ts-node": "^10.9.2",
     "tsx": "^4.7.1",
     "typescript": "^4.0.0",
+    "typescript-eslint": "^8.26.1",
     "vite": "^6.2.1"
   },
   "dependencies": {

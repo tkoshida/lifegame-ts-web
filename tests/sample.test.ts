@@ -1,9 +1,7 @@
 describe('Sample', () => {
-
-  beforeEach(() => {
-  });
+  beforeEach(() => {})
 
   test('should initialize with a dead state', () => {
-    expect(true).toBe(true);
-  });
-});
+    expect(true).toBe(true)
+  })
+})

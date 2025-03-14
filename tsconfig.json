@@ -1,16 +1,16 @@
 {
-    "compilerOptions": {
-      "target": "es2022",
-      "module": "es2022",
-      "strict": true,
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true,
-      "outDir": "./dist/client",
-      "rootDir": "./src/client",
-      "lib": ["es2020", "dom"],
-      "types": ["node", "jest"]
-    },
-    "include": ["src/client"],
-    "exclude": ["node_modules", "**/*.test.ts"]
-  }
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist/client",
+    "rootDir": "./src/client",
+    "lib": ["es2020", "dom"],
+    "types": ["node", "jest"]
+  },
+  "include": ["src/client"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
