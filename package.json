@@ -1,0 +1,32 @@
+{
+  "name": "lifegame-ts",
+  "version": "1.0.0",
+  "description": "Lifegame 2 web application using TypeScript",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "debug": "npx vite",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/japan-d2/lifegame-ts.git"
+  },
+  "author": "japan-d2",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/node": "^20.10.0",
+    "jest": "^27.0.0",
+    "ts-jest": "^27.0.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.1",
+    "typescript": "^4.0.0",
+    "vite": "^6.2.1"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.21.2"
+  }
+}
