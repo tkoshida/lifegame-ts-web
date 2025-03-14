@@ -1,4 +1,4 @@
-# lifegame-ts
+# lifegame-ts-web
 
 ## 概要
 
@@ -57,11 +57,11 @@
 
 1. プロジェクトのディレクトリに移動します。
    ```
-   cd lifegame-ts
+   cd lifegame-ts-web
    ```
-2. `.env`ファイルを作成し、以下の内容を記述します。
+2. `src/client/.env`ファイルを作成し、以下の内容を記述します。
    ```
-   VITE_GRID_SIZE_N=8
-   VITE_GRID_SIZE_M=8
+   VITE_GRID_SIZE_N=16
+   VITE_GRID_SIZE_M=16
    ```
 3. 必要に応じて、`GRID_SIZE_N`と`GRID_SIZE_M`の値を変更します。
