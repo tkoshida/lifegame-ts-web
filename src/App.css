@@ -1,11 +1,9 @@
-#grid-container {
+.grid {
   display: grid;
   gap: 2px;
 }
 
 .cell {
-  width: 20px;
-  height: 20px;
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
@@ -18,9 +16,15 @@
   background-color: #fff;
 }
 
+.controls {
+  display: flex;
+  margin-top: 8px;
+  gap: 6px;
+}
+
 button {
-  margin: 2px;
-  padding: 1px;
+  padding: 2px 16px;
   font-size: 16px;
   cursor: pointer;
+  min-width: 64px;
 }
