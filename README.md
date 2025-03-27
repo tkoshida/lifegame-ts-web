@@ -35,16 +35,17 @@
    ```
 3. TypeScriptのビルドを行います。
    ```
-   npm run debug
+   npm run dev
    ```
 4. ブラウザで以下のURLにアクセスします。
    ```
-   http://localhost:3000
+   http://localhost:5173/
    ```
 
 ## デフォルト実装について
 
 1. ランダムの状態で格子を表示するように実装されています。
+
    1. Runボタンをクリックすると以下のように表示されます。
       ![webview](image/webview.png)
    2. ルールに従った世代ごとの表示を実装してください。
@@ -71,9 +72,9 @@
    ```
    cd lifegame-ts-web
    ```
-2. `src/client/.env`ファイルを作成し、以下の内容を記述します。
+2. `.env.local` ファイルを作成し、以下の内容を記述します。
    ```
-   VITE_GRID_SIZE_N=16
-   VITE_GRID_SIZE_M=16
+   VITE_GRID_ROWS=16
+   VITE_GRID_COLUMNS=16
    ```
-3. 必要に応じて、`GRID_SIZE_N`と`GRID_SIZE_M`の値を変更します。
+3. 必要に応じて、`VITE_GRID_ROWS`と`VITE_GRID_COLUMNS`の値を変更します。
